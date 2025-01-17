@@ -1,0 +1,56 @@
+{
+    "requests": [
+        {
+            "id": "Request1",
+            "pickupLocation": {
+                "name": "Pickup1",
+                "latitude": 37.7749,
+                "longitude": -122.4194
+            },
+            "dropOffLocation": {
+                "name": "Dropoff1",
+                "latitude": 37.8044,
+                "longitude": -122.2712
+            },
+            "passengerCount": 2,
+            "timeWindowStart": "13:00",
+            "timeWindowEnd": "14:00",
+	    "assignedVehicle": {
+		"id": "Car1",
+		"startlocation": {
+     	            "name": "Pickup3",
+    	            "latitude": 37.7590,
+                    "longitude": -122.4260
+                },
+	        "capacity": 4,
+    	        "speed": 50
+	    },
+            "visitSequence": null
+        }
+    ],
+    "vehicles": [
+	{
+	    "id": "Car1",
+	    "startlocation": {
+                "name": "Pickup3",
+                "latitude": 37.7590,
+                "longitude": -122.4260
+            },
+	    "capacity": 4,
+    	    "speed": 50
+	}
+    ],
+    "locationList": [
+        {
+            "name": "Pickup1",
+            "latitude": 37.7749,
+            "longitude": -122.4194
+        },
+        {
+            "name": "Dropoff1",
+            "latitude": 37.8044,
+            "longitude": -122.2712
+        }
+    ],
+    "score": null
+}
